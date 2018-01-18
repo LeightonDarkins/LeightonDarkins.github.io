@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, #Navigation {
+  margin: 0;
+  font-family: "Avenir Next Condensed";
+}
+
+p {
+  font-family: 'Open Sans';
+  margin: 0;
+}
+
+#Logo {
+  border-radius: 50%;
+}
+
+#Header-Desktop {
+  display: none;
+}
+
+#Header-Mobile {
+  display: none;
+}

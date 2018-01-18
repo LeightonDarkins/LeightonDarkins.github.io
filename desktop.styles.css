@@ -1,0 +1,69 @@
+@media screen and (min-width: 1024px) {
+  body {
+    margin-left: 9.86vw;
+    margin-right: 9.86vw;
+    margin-top: 2.92vw;
+  }
+
+  p {
+    font-size: 1.75vw;
+  }
+
+  #Header-Desktop {
+    display: flex;
+  }
+
+  #Title {
+    margin-left: 2.92vw;
+  }
+
+  header {
+    display: flex;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 7.03vw;
+    font-weight: bold;
+    margin-top: .97vw;
+  }
+
+  #Logo {
+    height: 22.85vw;
+  }
+
+  h2 {
+    font-size: 3.51vw;
+    font-weight: normal;
+    margin-top: .97vw;
+    color: #4A4A4A;
+  }
+
+  #Navigation {
+    margin-top: 1.94vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #Navigation li {
+    padding: 0 1.44vw 0 1.44vw;
+    display: inline-block;
+    font-size: 2.34vw;
+
+    background-color: black;
+    color: white;
+    border: .19vw solid black;
+  }
+
+  #Navigation li:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+  }
+
+  #SpeedRound {
+    margin-top: 2.91vw;
+  }
+}
