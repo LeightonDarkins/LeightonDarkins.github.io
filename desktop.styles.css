@@ -25,7 +25,7 @@
   h1 {
     font-size: 7.03vw;
     font-weight: bold;
-    margin-top: .97vw;
+    margin-top: 0.97vw;
   }
 
   #Logo {
@@ -35,8 +35,8 @@
   h2 {
     font-size: 3.51vw;
     font-weight: normal;
-    margin-top: .97vw;
-    color: #4A4A4A;
+    margin-top: 0.97vw;
+    color: #4a4a4a;
   }
 
   #Navigation {
@@ -53,10 +53,22 @@
 
     background-color: black;
     color: white;
-    border: .19vw solid black;
+    border: 0.19vw solid black;
+  }
+
+  #Navigation li a {
+    text-decoration: none;
+    color: white;
   }
 
   #Navigation li:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+  }
+
+  #Navigation li:hover a {
     cursor: pointer;
     text-decoration: none;
     background-color: white;
