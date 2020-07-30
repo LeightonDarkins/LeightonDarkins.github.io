@@ -7,6 +7,7 @@ let IMAGE_COUNT = 3;
 
 (function () {
   changeLinkColors();
+  setColorHoverListener();
 
   setInterval(changeImage, 2500);
   setInterval(changeLinkColors, 5000);
@@ -37,5 +38,3 @@ function setColorHoverListener() {
     e.addEventListener('mouseover', changeLinkColors);
   });
 }
-
-setColorHoverListener();
