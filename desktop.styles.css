@@ -1,81 +1,65 @@
-@media screen and (min-width: 1024px) {
-  body {
-    margin-left: 9.86vw;
-    margin-right: 9.86vw;
-    margin-top: 2.92vw;
-  }
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 9.86vw;
+  margin-right: 9.86vw;
+  margin-top: 5.92vw;
+}
 
-  p {
-    font-size: 1.75vw;
-  }
+p {
+  font-size: 1.45vw;
+}
 
-  #Header-Desktop {
-    display: flex;
-  }
+#container {
+  max-width: 60vw;
+  margin: auto;
+}
 
-  #Title {
-    margin-left: 2.92vw;
-  }
+#Title {
+  margin-left: 2.92vw;
+}
 
-  header {
-    display: flex;
-    text-align: center;
-  }
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
-  h1 {
-    font-size: 7.03vw;
-    font-weight: bold;
-    margin-top: 0.97vw;
-  }
+h1 {
+  font-size: 3.5vw;
+  margin-top: 0.97vw;
+}
 
-  #Logo {
-    height: 22.85vw;
-  }
+#Logo {
+  height: 15vw;
+  min-height: 15vw;
+}
 
-  h2 {
-    font-size: 3.51vw;
-    font-weight: normal;
-    margin-top: 0.97vw;
-    color: #4a4a4a;
-  }
+h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  margin-top: 0.97vw;
+  color: #4a4a4a;
+}
 
-  #Navigation {
-    margin-top: 1.94vw;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-  }
+#Navigation {
+  margin-top: 2vw;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
 
-  #Navigation li {
-    padding: 0 1.44vw 0 1.44vw;
-    display: inline-block;
-    font-size: 2.34vw;
+#Navigation li {
+  padding: 0 1.44vw 0 1.44vw;
+  display: inline-block;
+  font-size: 1.75vw;
+}
 
-    background-color: black;
-    color: white;
-    border: 0.19vw solid black;
-  }
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+}
 
-  #Navigation li a {
-    text-decoration: none;
-    color: white;
-  }
-
-  #Navigation li:hover {
-    cursor: pointer;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-  }
-
-  #Navigation li:hover a {
-    cursor: pointer;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-  }
-
-  #SpeedRound {
-    margin-top: 2.91vw;
-  }
+#bio {
+  margin-top: 2vw;
 }
