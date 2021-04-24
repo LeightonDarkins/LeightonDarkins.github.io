@@ -42,7 +42,19 @@
       return outerDiv;
     }
 
+    function clearChildren() {
+      document.querySelectorAll('.winner-tile').forEach((tile) => {
+        tile.remove();
+      });
+
+      document.querySelectorAll('.row').forEach((row) => {
+        row.remove();
+      });
+    }
+
     function renderRows() {
+      clearChildren();
+
       for (let index = 0; index < defaultNumberOfRows; index++) {
         addRow();
       }
@@ -54,14 +66,6 @@
 
     function handleReset(event) {
       if (confirm('Are you sure you want to clear the leaderboard?')) {
-        document.querySelectorAll('.winner-tile').forEach((tile) => {
-          tile.remove();
-        });
-
-        document.querySelectorAll('.row').forEach((row) => {
-          row.remove();
-        });
-
         renderRows();
 
         document.getElementById('add').removeAttribute('disabled');
