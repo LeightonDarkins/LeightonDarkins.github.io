@@ -107,11 +107,14 @@
     }
 
     function compareScores(a, b) {
-      if (a.score < b.score) {
+      const scoreA = parseInt(a.score);
+      const scoreB = parseInt(b.score);
+
+      if (scoreA < scoreB) {
         return 1;
       }
 
-      if (a.score > b.score) {
+      if (scoreA > scoreB) {
         return -1;
       }
 
