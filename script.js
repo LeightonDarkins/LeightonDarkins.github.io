@@ -3,7 +3,7 @@ console.log(
   'color: red; font-size: 24px'
 );
 
-let IMAGE_COUNT = 3;
+let IMAGE_COUNT = 4;
 
 (function () {
   changeLinkColors();
